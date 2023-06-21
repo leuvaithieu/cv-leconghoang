@@ -18,14 +18,17 @@ function App() {
                   <span>E</span> leuvaithieu95@gmail.com
               </li>
               <li>
+                  <span>GH</span><a style={{marginLeft:'4px'}} href="https://github.com/leuvaithieu">https://github.com/leuvaithieu</a> 
+              </li>
+              <li>
                   <span>W</span> <a href="https://my-portfolio-hoang-42i7.vercel.app/">https://my-portfolio-hoang-42i7.vercel.app/</a>
               </li>
           </ul>
     </div>
     <div className="info">
           <ul>
-              <li>Nơi ở hiện tại: <b>47/36/11/8 Lê Quang Đạo, Nam Từ Liêm, Hà Nội</b> - VietNam</li>
-              <li>26/06/1995</li>
+              <li>Nơi ở hiện tại: <b>47/36/11/8 Lê Quang Đạo, Nam Từ Liêm, Hà Nội - Việt Nam</b></li>
+              <li>Sinh ngày: 26/06/1995</li>
               <li>Đại học kinh tế kỹ thuât công nghiệp Hà Nội</li>
           </ul>
     </div>
@@ -37,7 +40,7 @@ function App() {
       <h2 className="uppercase">Kinh nghiệm</h2>
 
       <div className="item">
-          <h4>Nhân viên kỹ thuật phần cứng</h4>
+          <h4 className='uppercase'>Nhân viên kỹ thuật phần cứng</h4>
           <div className="time d-flex flex-column">
             <span>9/2020 - 8/2021</span>
             <span className="bolt my-10">CÔNG TY CP TƯ VẤN CÔNG NGHỆ THƯƠNG MẠI DUY HƯNG</span>
@@ -50,7 +53,7 @@ function App() {
           </div>
       </div>
       <div className="item">
-          <h4>Nhân viên lập trình giao diện website</h4>
+          <h4 className='uppercase'>Nhân viên lập trình giao diện website</h4>
           <div className="time d-flex flex-column">
             <span>8/2021 - 6/2023</span>
             <span className="bolt my-10">CÔNG TY ĐẦU TƯ QUỐC TẾ BIỂN VÀNG (BIVACO)</span>
@@ -64,7 +67,7 @@ function App() {
       </div>
       <div className="education mt-4 ">
           <h2 className="bolt uppercase">Học vấn</h2>
-          <h4>Sinh viên</h4>
+          <h4 className='uppercase'>Sinh viên</h4>
           <div className="item mt-4">
               
               <div className="time d-flex flex-column">
