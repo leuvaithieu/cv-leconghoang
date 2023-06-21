@@ -24,7 +24,7 @@ function App() {
     </div>
     <div className="info">
           <ul>
-              <li>Nơi ở hiện tại: <b>Hà Nội</b> - VietNam</li>
+              <li>Nơi ở hiện tại: <b>47/36/11/8 Lê Quang Đạo, Nam Từ Liêm, Hà Nội</b> - VietNam</li>
               <li>26/06/1995</li>
               <li>Đại học kinh tế kỹ thuât công nghiệp Hà Nội</li>
           </ul>
